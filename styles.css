@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e9cca8;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    align-content: center;
+    width: 25%;
+    overflow: hidden;
+    margin-top: 5rem;
+    margin-left: 40rem;
+    padding: 30px;
+    background-color: #8fb1dd;
+    border-radius: 0;
+ 
+}
+
+h1, h2, p {
+    text-align: center;
+    align-items: center;
+}
+
+.form-title {
+    margin-bottom: 20px;
+}
+
+.input-group {
+    position: relative;
+    margin: 10px 0;
+    color: #007BFF;
+    size: 20px;
+}
+
+.input-group i {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px 30px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+}
+
+.input-group label {
+    position:absolute;
+    top: -20px;
+    left: 10px;
+    font-size: 14px;
+    color: #2912dc;
+}
+
+button, .btn {
+    width: 10rem;
+    padding: 10px;
+    background-color: #007BFF;
+    text-align: center;
+    color: white;
+    border: solid;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+button:hover, .btn:hover {
+    background-color: #ffffff;
+    color: #007BFF;
+   
+    
+}
+
+.recover a {
+    text-decoration: none;
+    color: #000000;
+    transition: 0.3s;
+}
+
+.recover a:hover {
+    color: #0056b3;
+    font-size: larger;
+    transform: scale(2.5 solid);
+    transition: 0.3s;
+}
+
+.links, .icons {
+    text-align: center;
+    margin-top: 20px;
+    size: 100px;
+    transition: 0.1s;
+}
+  
+
+.or {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.icons i {
+    font-size: 24px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.icons i:hover {
+    color: #007BFF;
+    border-radius: 50rem;
+    size: 20rem;
+    transition: 0.1s;
+    
+
+}
